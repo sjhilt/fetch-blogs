@@ -40,17 +40,25 @@ This script automates the process of fetching content from a list of URLs, optio
 
 ## Usage
 
-Run the script with the following command:
+### URL Fetcher Script
+- To fetch URLs without a proxy:
+  ```bash
+  python url_fetcher.py
+  ```
+- To fetch URLs with a proxy:
+  ```bash
+  python url_fetcher.py --use-proxy
+  ```
 
-### Without Proxy
-```bash
-python fetch_blogs.py
-```
-
-### With Proxy
-```bash
-python fetch_blogs.py --use-proxy
-```
+### PDF Papers Downloader Script
+- To download partial PDFs without a proxy:
+  ```bash
+  python partial_pdf_downloader.py
+  ```
+- To download partial PDFs with a proxy:
+  ```bash
+  python partial_pdf_downloader.py --use-proxy
+  ```
 
 ### Arguments
 - `--use-proxy`: Routes requests through the configured proxy.
@@ -59,6 +67,7 @@ python fetch_blogs.py --use-proxy
 ```
 .
 ├── fetch_blogs.py          # The main Python script
+├── download_papers.py # Script for partial PDF downloading
 ├── ua.txt             # User-Agent strings (one per line)
 └── README.md          # This README file
 ```
