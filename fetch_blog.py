@@ -5,9 +5,8 @@ import argparse
 
 # Define the list of URLs to fetch
 urls = [
-    "LINK TO A BLOG YOU WANT TO FETCH",
-    "ANOTHER LINK",
-    "MOAR LINKS!"
+    "https://example.com",
+    "https://another-example.com"
 ]
 
 # Load user-agent strings from a file (ua.txt)
@@ -16,7 +15,7 @@ with open("ua.txt", "r") as f:
     user_agents = [line.strip() for line in f if line.strip()]
 
 # Proxy IP and port setup
-proxy_ip = "YOUR_TOR/VPN_PROXY"  # Replace with your proxy server's IP and port
+proxy_ip = "192.168.0.254:9050"  # Replace with your proxy server's IP and port
 proxies = {
     "http": f"socks5h://{proxy_ip}",
     "https": f"socks5h://{proxy_ip}",
