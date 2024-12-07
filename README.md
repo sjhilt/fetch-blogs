@@ -123,5 +123,5 @@ Feel free to fork this repository and submit pull requests for enhancements or b
 
 ## Author
 
-Stepehn Hilt
+Stephen Hilt
 
