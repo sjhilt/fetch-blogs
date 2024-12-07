@@ -91,7 +91,7 @@ while True:
         # Select a random User-Agent string for each request
         user_agent = random.choice(user_agents)
         headers = {"User-Agent": user_agent}
-        print(f"Fetching URL: {url} with User-Agent: {user_agent}")
+        print(f"User-Agent: {user_agent}")
 
         # Fetch the current IP address (to verify proxy usage)
         ip_response = fetch_url("https://icanhazip.com/", use_proxy=args.use_proxy)
