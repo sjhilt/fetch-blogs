@@ -104,7 +104,7 @@ while True:
         result = download_partial_pdf(url, headers=headers, use_proxy=args.use_proxy)
         print(result)
 
-        # Sleep for a random interval between 60 and 120 seconds
-        sleep_time = random.randint(60, 120)
-        print(f"Sleeping for {sleep_time} seconds...")
-        time.sleep(sleep_time)
+    # Sleep for a random interval between 60 and 120 seconds
+    sleep_time = random.randint(60, 120)
+    print(f"Sleeping for {sleep_time} seconds...")
+    time.sleep(sleep_time)
