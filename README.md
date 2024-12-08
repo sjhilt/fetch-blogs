@@ -51,13 +51,13 @@ This script automates the process of fetching content from a list of URLs, optio
   ```
 
 ### PDF Papers Downloader Script
-- To download partial PDFs without a proxy:
+- To download research PDFs without a proxy:
   ```bash
-  python partial_pdf_downloader.py
+  python download_papers.py
   ```
-- To download partial PDFs with a proxy:
+- To download research PDFs with a proxy:
   ```bash
-  python partial_pdf_downloader.py --use-proxy
+  python download_papers.py --use-proxy
   ```
 
 ### Arguments
